@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "butterflycosmetic",
+  "version": "${version}",
+  "name": "RXG Folding Fan Cosmetic",
+  "description": "Client-side animated decorative folding fan HUD cosmetic for Minecraft 26.2.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ritamx.butterfly.ButterflyCosmeticClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": ">=0.161.0"
+  }
+}
